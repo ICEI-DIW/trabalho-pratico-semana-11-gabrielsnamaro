@@ -11,9 +11,9 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 **Print do teste da API com visualização do JSON**
 
-![Estrutura JSON](public\assets\img\dbjson-print.png)
+![Estrutura JSON](public/assets/img/dbjson-print.png)
 
-![JSON - Item exemplo](public\assets\img\dbjson-print-id0.png)
+![JSON - Item exemplo](public/assets/img/dbjson-print-id0.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR**
 
