@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="assets/js/app.js">
+  </script>
 </head>
 
 <body>
 
   <header>
     <a href="index.html">
-        <div class="container-logo">
+      <div class="container-logo">
         <img src="assets/img/black-logo-hq.png">
       </div>
     </a>
@@ -126,44 +128,9 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-
-  <script src="assets/js/app.js">
-  </script>
-
-  <script>
-    let carrossel = [
-      document.querySelector("#\\30.carousel-item"),
-      document.querySelector("#\\31.carousel-item"),
-      document.querySelector("#\\32.carousel-item")
-    ];
-
-    let cards = [
-      document.querySelector("#\\33.card"),
-      document.querySelector("#\\34.card"),
-      document.querySelector("#\\35.card"),
-      document.querySelector("#\\36.card"),
-      document.querySelector("#\\37.card"),
-      document.querySelector("#\\38.card"),
-      document.querySelector("#\\39.card"),
-      document.querySelector("#\\31 0.card"),
-      document.querySelector("#\\31 1.card")
-    ];
-
-    for(i = 0; i < carrossel.length; i++) {
-      let producao = informacoes.find(function(e){return e.id == i});
-
-      carrossel[i].innerHTML = '<a href="detalhe.html?id='+i+'"><img src="'+producao["thumbnail"]+'" class="d-block w-100" alt="..."><div class="carousel-caption"><h5>'+producao["titulo"]+'</h5><p class="d-none d-sm-inline">'+producao["lancamento"]+' - '+producao["resumo-elenco"]+'</p></div></a>';
-    }
-
-    for(i = 0; i < cards.length; i++) {
-      let producao = informacoes.find(function(e){return e.id == i+carrossel.length});
-
-      cards[i].innerHTML = '<a href="detalhe.html?id='+(i+carrossel.length)+'" class="text-decoration-none"><img src="'+producao["thumbnail"]+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title text-dark">'+producao["titulo"]+'</h5><p class="card-text text-dark">'+producao["lancamento"]+' - '+producao["genero"]+' - Dirigido por '+producao["diretor"]+'</p></div></a>';
-    }
-
-
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
 
 </body>
 
