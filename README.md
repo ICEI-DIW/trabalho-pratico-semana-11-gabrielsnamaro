@@ -4,10 +4,10 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: GABRIEL SILVA NEIVA AMARO
+- Matricula: 883764
+- Proposta de projeto escolhida: Catálogo de filmes
+- Breve descrição sobre seu projeto: Website estruturado com inspiração em conhecidos serviços de streaming (Amazon Prime Video e Netflix).
 
 **Print do teste da API com visualização do JSON**
 
